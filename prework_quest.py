@@ -35,7 +35,7 @@ def max_num_in_list(a_list):
         if i > max:
             max = i
             
-    print('\n out of loop' , max)
+    print(' out of loop' , max)
             
 max_num_in_list(num_in_list)
 
