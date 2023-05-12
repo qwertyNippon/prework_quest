@@ -48,7 +48,21 @@ max_num_in_list(num_in_list)
 # should be boolean Type (true/false).
 
 
-    def is_leap_year(a_year):
+a_year = False
+
+def is_leap_year(a_year):
+    if a_year % 4 == 0:
+    	a_year = True, print('Is a Leap Year')
+    else:
+         a_year = False
+         print('Not a Leap Year')
+
+is_leap_year(2024)
+print(type(a_year))
+
+#Below is where I used to test my code, I'm not sure 
+#about the use of improper tabs.
+print('https://www.w3schools.com/python/trypython.asp?filename=demo_ref_range')
 
 
 #Question 5
@@ -58,4 +72,4 @@ max_num_in_list(num_in_list)
 # numbers. The return should be boolean Type.
 
 
-    def is_consecutive(a_list):
+def is_consecutive(a_list):
