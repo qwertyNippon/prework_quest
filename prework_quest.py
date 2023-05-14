@@ -71,5 +71,14 @@ print('https://www.w3schools.com/python/trypython.asp?filename=demo_ref_range')
 # consecutive numbers, but [1,2,4,5] are not consecutive
 # numbers. The return should be boolean Type.
 
-
+rand = [1582123]
+order = []
 def is_consecutive(a_list):
+     for i in a_list:
+          a_list.set().sort()
+          print(a_list)
+
+is_consecutive()
+
+#It is about mid day on Sunday, the code above doesn't work.
+#If I find a solution that does I will update.
