@@ -81,4 +81,4 @@ def is_consecutive(a_list):
 is_consecutive()
 
 #It is about mid day on Sunday, the code above doesn't work.
-#If I find a solution that does I will update.
+#If I find a solution that does I will edit.
